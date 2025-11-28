@@ -12,5 +12,6 @@ from sales s left join mart_sales a
  on s.total_items=a.mart_sales 
  where a.mart_sales>1000 and s.total_spent >2000 
 group by s.customer_key
+testtt
  
  
